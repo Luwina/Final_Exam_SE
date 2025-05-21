@@ -5,15 +5,15 @@ on:
   pull_request:
     branches: ["main"]
 jobs:
-	build:
-		runs-on: Ubantu-latest
-		steps:
-		-name: ChangeCode
-		 uses: action/code@v3
-		-namne: install GCC
-		 run: sudo apt update && sudo apt install -y build-essential
-		-name: Build Project
-		 run: make
-		-name: Run executable
-		 run: ./main 
+  build:
+    runs-on: Ubantu-latest
+    steps:
+    -name: ChangeCode
+     uses: action/code@v3
+    -namne: install GCC
+     run: sudo apt update && sudo apt install -y build-essential
+    -name: Build Project
+     run: make
+    -name: Run executable
+     run: ./main 
 		
