@@ -1,7 +1,7 @@
 CC= gcc
-CFlags= -Wall -Wertex
+CFLAGS= -Wall -Wertex
 all:main
 main:main.c
-	$(CC) $(CFlags)main.c -o main
+	$(CC) $(CFLAGS)main.c -o main
 clean:
 	rm -f main
