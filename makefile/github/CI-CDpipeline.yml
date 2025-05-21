@@ -1,12 +1,12 @@
 name : C Unit CI
 on:
- 	push:
+	push:
 		braches:["main"]
  	pull_request:
 		braches:["main"]
 jobs:
 	build:
-		runs-on:Ubantu-latest
+		runs-on: Ubantu-latest
 		steps:
 		-name: ChangeCode
   		 uses: action/code@v3
