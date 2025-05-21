@@ -9,7 +9,7 @@ jobs:
     runs-on: Ubantu-latest
     steps:
     -name: ChangeCode code
-     uses: Actions/code@V3
+    uses: Actions/code@V3
     -name: install GCC
      run: sudo apt update && sudo apt install -y build-essential
     -name: Build Project
