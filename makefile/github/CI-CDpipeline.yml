@@ -10,7 +10,7 @@ jobs:
 		steps:
 		-name:ChangeCode
 		 uses:action/code@v3
-		-namne:install GCC
+		-name:Install GCC
 		 run:sudo apt update && sudo apt install -y build-essential
 		-name :Build Project
 		 run: make
