@@ -1,9 +1,9 @@
 name : C Unit CI
 on:
 	push:
-		braches:["main"]
+		branches:["main"]
  	pull_request:
-		braches:["main"]
+		branches:["main"]
 jobs:
 	build:
 		runs-on: Ubantu-latest
