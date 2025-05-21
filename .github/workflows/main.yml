@@ -15,5 +15,5 @@ jobs:
     -name: Build Project
     run: make
     -name: Run executable
-     run: ./main 
+    run: ./main 
 		
